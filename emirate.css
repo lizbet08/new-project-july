@@ -1,0 +1,71 @@
+body{
+    margin: 0;
+}
+.header{
+    display: flex;
+    height: 30px;
+    background-color: #FEF8D5;
+    gap: 10px;
+    padding-left: 10%;
+    padding-top: 20px;
+}
+a{
+    color: black;
+}
+a:hover{
+    cursor: pointer;
+    background-color: #D1F8D5;
+}
+.navbar{
+    background-color: #333333;
+    height: 60px;
+    display:flex;
+    justify-content: space-around;
+    /* align-items: center; */
+}
+.con{
+    display: flex;
+}
+.ul{
+    list-style: none;
+    gap: 20px;
+    color: white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+}
+.section-nav{
+    display: flex;
+    gap: 40px;
+    /* align-items: center; */
+}
+.nav{
+    display: flex;
+    gap: 10px;
+    float: left;
+}
+.img{
+    margin-top: 15px;
+}
+.logo{
+    z-index: 1;
+}
+.sub-image{
+    margin-top: -5px;
+    background: url('./images/happy.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+.img-2{
+    float: right;
+    margin-top: 20px;
+    margin-right: 120px;
+}
+.text{
+    color: white;
+    margin-left: 130px;
+}
