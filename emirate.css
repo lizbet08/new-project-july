@@ -1,5 +1,7 @@
 body{
     margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .header{
     display: flex;
@@ -52,20 +54,56 @@ a:hover{
 .logo{
     z-index: 1;
 }
-.sub-image{
-    margin-top: -5px;
-    background: url('./images/happy.jpg');
+.sub-img{
+    /* margin-top: -5px; */
+    background: url("./images/bridge1.jpg");
     background-position: center;
     background-size: cover;
-    height: 400px;
+    height: 550px;
     width: 100%;
+    /* border: 2px solid green; */
+    
 }
 .img-2{
-    float: right;
+    /* float: right; */
     margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
     margin-right: 120px;
 }
 .text{
     color: white;
     margin-left: 130px;
+    margin-top: 100px;
+    width: 40%;
+}
+.button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    background-color: #D71921;
+    color: white;
+    margin-left: 105px;
+    border-radius: 3px;
+}
+.but{
+    margin-top: -35px;
+    margin-left: 22
+    5px;
+    
+}
+ul{
+    display: inline-flex;
+    list-style: none;
+}
+.list{
+    text-align: center;
+    align-items: center;
+    margin-top: -40px;
+    height: 45px;
+    width: 160px;
+    background-color: white;
+    border: 1px solid grey;
+    border-radius: 3px;
+    color: black;
 }
