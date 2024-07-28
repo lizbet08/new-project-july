@@ -2,13 +2,14 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #F6F6F6;
 }
 .header{
     display: flex;
     height: 30px;
     background-color: #FEF8D5;
     gap: 10px;
-    padding-left: 10%;
+    padding-left: 14%;
     padding-top: 20px;
 }
 a{
@@ -32,7 +33,7 @@ a:hover{
     list-style: none;
     gap: 20px;
     color: white;
-    font-size: 14px;
+    font-size: 11px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
     display: flex;
@@ -40,24 +41,26 @@ a:hover{
 }
 .section-nav{
     display: flex;
-    gap: 40px;
-    /* align-items: center; */
+    gap: 30px;
+    align-content: center;
+    font-size: 12px;
+    margin-top: 21px;
+    margin-right: 150px;
 }
 .nav{
     display: flex;
     gap: 10px;
     float: left;
 }
-.img{
-    margin-top: 15px;
-}
+
 .logo{
     z-index: 1;
+    margin-left: 90px;
 }
 .sub-img{
     /* margin-top: -5px; */
-    background: url("./images/bridge1.jpg");
-    background-position: center;
+    background: url("./images/bridge.jpeg");
+    background-position:center;
     background-size: cover;
     height: 550px;
     width: 100%;
@@ -65,11 +68,13 @@ a:hover{
     
 }
 .img-2{
-    /* float: right; */
-    margin-top: 20px;
+    float: right;
+    margin-top: -90px;
     display: flex;
     justify-content: space-between;
-    margin-right: 120px;
+}
+.fly{
+    margin-right: 240px;
 }
 .text{
     color: white;
@@ -78,17 +83,187 @@ a:hover{
     width: 40%;
 }
 .button{
-    width: 150px;
-    height: 40px;
+    width: 120px;
+    height: 30px;
     border: none;
     background-color: #D71921;
     color: white;
-    margin-left: 105px;
+    margin-left: 200px;
     border-radius: 3px;
 }
-.but{
-    margin-top: -35px;
-    margin-left: 225px;
+
+.container{
+    border: 1px solid grey;
+    height: 135px;
+    margin-top: -5%;
+    width: 65%;
+    margin: auto;
     
+
+}
+.but{
+    border: 1px solid grey;
+    
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    /* width: 60%; */
+    margin: auto;
+    margin-top: -65px;
+
+}
+.but :hover{
+    border-bottom: 3px solid red;
+    border-left: 2px solid rgb(228, 223, 223);
+    border-right: 2px solid rgb(228, 223, 223);
+}
+.but1{
+    color: black;
+    background-color: white;
+    padding: 10px;
+    width: 65%;
+    height: 40px;
+    border: 1px solid grey;
+    align-content: center;
+}
+img{
+    margin-right: 5px;
+}
+.flight{
+    height: 35px;
+    display: flex;
+    font-size: .8rem;
+    margin: .7rem 1.5rem;
+}
+
+.select-flight{
+padding: .5rem 1rem ;
+border: 1px solid grey;
+box-sizing: border-box;
+}
+
+.select-flight:first-of-type{
+    border-right: 0;
+}
+.anchor{
+    font-size: 12px;
+    color: red;
+    float: right;
+    margin-right: 20px;
+}
+.arrival{
+    display: flex;
+    gap: 20px;
+    width: 90%;
+    margin: .7rem 1.5rem; 
+    margin-top: 35px; 
+}
+.arrival-1{
+    color: black;
+    background-color: white;
+    border: 1px solid grey;
+    width: 50%;
+    height: 40px;
+}
+.arrival-2{
+    border: 1px solid red;
+    background-color: #D71921;
+    color: white;
+    width: 25%;
+    height: 40px;
+}
+.arrival-1-1{
+    margin: .7rem 1.5rem;
+}
+.bookings{
+    width: 65%;
+    height: 100%;
+    margin: auto;    
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+
+}
+.booking1{
+    /* background-color: red; */
+    border: 1px solid grey;
+    height: 100px;
+    width: 50%;
+    text-align: center;
+}
+.booking1-1{
+    margin-top: 20px;
+}
+.skyward-background{
+    display: flex;
+    /* background: url("./images/background-test-tier.png"); */
+    background-position:center;
+    background-size: cover;
+    background-color: black;
+    width: 65%;
+    height: 60px;
+    margin: auto; 
+    margin-top: 30px;
+    border-radius: 4px; 
+    align-items: center;
+    justify-content: space-around;
+    gap: 0px;
+}
+.skyward{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+    line-height: 0px;
+    font-weight: 700px;
+    margin-right: 70px;
+}
+.destinations{
+    padding: .5rem;
+    display: grid;
+    grid-template-columns: repeat(2,2fr);
+    grid-template-rows: repeat(4, 300px);
+    gap: 40px;
+    margin: auto;
+    width: 65%;
+}
+.country{
+    text-align: center;
+}
+.div{
+    background-color: #FFFFFF;
+    width: 100%;
+}
+.more-destinations{
+    margin-left: 10%;
+    margin-top: -44%;
+    text-align: center;
+}
+.button-but{
+    height: 40px;
+    width: 15%;
+    background-color: #ffff;
+}
+.destination-anchor{
+    margin-left: 10%;
+}
+.discount{
+     background-image:
+     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url("./images/students.jpg");
+    background-position:center;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+    margin-top: -50px;
+}
+hr{
+    border-color: red;
+    width: 5%;
+}
+.offer{
+    margin-bottom: 40px;
+    color: white;
+    margin-top: 100px;
+    text-align: center;
 }
 
